@@ -1,0 +1,282 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	apServer/settings.py	/^ALLOWED_HOSTS = ["*"]$/;"	v
+APCLIENT_CMD_PORT	common/env.py	/^APCLIENT_CMD_PORT=8010$/;"	v
+APCLIENT_CMD_PORT	utils/apClient_cmd.py	/^APCLIENT_CMD_PORT=8010$/;"	v
+APCLIENT_ERR_PUT_DEVICE_INFO_INVALID_DEVICE_ID	common/error.py	/^APCLIENT_ERR_PUT_DEVICE_INFO_INVALID_DEVICE_ID = "Invalid device id(0). You must first register a device."$/;"	v
+APCLIENT_LOG_PATH	common/env.py	/^APCLIENT_LOG_PATH="\/var\/log\/apClient.log"$/;"	v
+APCLIENT_LOG_PATH	common/test.py~~	/^APCLIENT_LOG_PATH="\/var\/log\/apClient.log"$/;"	v
+APCLIENT_PID_PATH	common/env.py	/^APCLIENT_PID_PATH="\/var\/run\/apClient.pid"$/;"	v
+APCLIENT_PID_PATH	common/test.py~~	/^APCLIENT_PID_PATH="%s\/apClient.pid"%WORKDIR$/;"	v
+APGENT_DB_FILE	common/env.py	/^APGENT_DB_FILE = WORKDIR+"db.sqlite3"$/;"	v
+APSERVER_DEVICE_INFO_POST_URL	common/env.py	/^APSERVER_DEVICE_INFO_POST_URL=APSERVER_URL+'\/v1\/devices\/'$/;"	v
+APSERVER_DEVICE_INFO_URL	common/env.py	/^APSERVER_DEVICE_INFO_URL=APSERVER_URL+'\/v1\/devices\/'$/;"	v
+APSERVER_IP	common/env.py	/^APSERVER_IP='http:\/\/127.0.0.1'$/;"	v
+APSERVER_LOG_PATH	common/env.py	/^APSERVER_LOG_PATH="\/var\/log\/apServer.log"$/;"	v
+APSERVER_PORT	common/env.py	/^APSERVER_PORT=':8001'$/;"	v
+APSERVER_URL	common/env.py	/^APSERVER_URL=APSERVER_IP+APSERVER_PORT$/;"	v
+AUTH_PASSWORD_VALIDATORS	apServer/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+App	common/test.py~~	/^class App(): $/;"	c
+BASE_DIR	apServer/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+CONFIG_TYPE_LIST	sal/wapi/puci.py	/^CONFIG_TYPE_LIST=2$/;"	v
+CONFIG_TYPE_SCALAR	sal/wapi/puci.py	/^CONFIG_TYPE_SCALAR=1$/;"	v
+ClientCmdApp	apClient/client.py	/^class ClientCmdApp():$/;"	c
+CommandSocket	apClient/client.py	/^class CommandSocket():$/;"	c
+ConfigUCI	sal/wapi/puci.py	/^class ConfigUCI:$/;"	c
+CustomRouter	apServer/urls.py	/^class CustomRouter(routers.SimpleRouter):$/;"	c
+DATABASES	apServer/settings.py	/^DATABASES = {$/;"	v
+DEBUG	apServer/settings.py	/^DEBUG = True$/;"	v
+DEVICE_INFO_CONFIG	common/env.py	/^DEVICE_INFO_CONFIG=WORKDIR+"\/conf\/device_info.default"$/;"	v
+DEVICE_INFO_POST_URL	common/env.py	/^DEVICE_INFO_POST_URL=SERVER_URL+'\/v1\/devices\/registration\/'$/;"	v
+DEVICE_INFO_URL	common/env.py	/^DEVICE_INFO_URL=SERVER_URL+'\/v1\/devices\/'$/;"	v
+DeviceInfo	apServer/server/models.py	/^class DeviceInfo(models.Model):$/;"	c
+DeviceInfoSerializer	apServer/server/serializers.py	/^class DeviceInfoSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+DeviceInfoViewSet	apServer/server/views.py	/^class DeviceInfoViewSet(viewsets.ModelViewSet):$/;"	c
+GenericIfStats	apServer/server/models.py	/^class GenericIfStats(models.Model):$/;"	c
+GenericIfStatsSerializer	apServer/server/serializers.py	/^class GenericIfStatsSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+GenericIfStatsViewSet	apServer/server/views.py	/^class GenericIfStatsViewSet(viewsets.ViewSet):$/;"	c
+GetLogger	common/log.py	/^class GetLogger():$/;"	c
+IFNAME_LENGTH	common/env.py	/^IFNAME_LENGTH=30$/;"	v
+INSTALLED_APPS	apServer/settings.py	/^INSTALLED_APPS = [$/;"	v
+InterfaceConfigViewSet	apServer/server/views.py	/^class InterfaceConfigViewSet(viewsets.ViewSet):$/;"	c
+LANGUAGE_CODE	apServer/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LAN_ETHDEV	common/env.py	/^LAN_ETHDEV='eth0'$/;"	v
+LOGGING	apServer/settings.py	/^LOGGING = {$/;"	v
+LOG_MODULE_APCLIENT	common/env.py	/^LOG_MODULE_APCLIENT='apClient'$/;"	v
+LOG_MODULE_APSERVER	common/env.py	/^LOG_MODULE_APSERVER='apServer'$/;"	v
+LOG_MODULE_REQUEST	common/env.py	/^LOG_MODULE_REQUEST='Request'$/;"	v
+LOG_MODULE_SAL	common/env.py	/^LOG_MODULE_SAL='sal'$/;"	v
+MIDDLEWARE	apServer/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	apServer/server/serializers.py	/^    class Meta:$/;"	c	class:DeviceInfoSerializer
+Meta	apServer/server/serializers.py	/^    class Meta:$/;"	c	class:GenericIfStatsSerializer
+Meta	apServer/server/serializers.py	/^    class Meta:$/;"	c	class:SystemConfigSerializer
+Migration	apServer/server/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	apServer/server/migrations/0002_genericporttraffic.py	/^class Migration(migrations.Migration):$/;"	c
+Migration	apServer/server/migrations/0003_auto_20180620_0516.py	/^class Migration(migrations.Migration):$/;"	c
+PROC_NET_DEV_PATH	common/env.py	/^PROC_NET_DEV_PATH="\/proc\/net\/dev"$/;"	v
+ProcDeviceInfo	apClient/device_info.py	/^class ProcDeviceInfo(object):$/;"	c
+ROOT_URLCONF	apServer/settings.py	/^ROOT_URLCONF = 'apServer.urls'$/;"	v
+SAL_METHOD_CREATE	sal/sal.py	/^SAL_METHOD_CREATE=3$/;"	v
+SAL_METHOD_DELETE	sal/sal.py	/^SAL_METHOD_DELETE=6$/;"	v
+SAL_METHOD_LIST	sal/sal.py	/^SAL_METHOD_LIST=1$/;"	v
+SAL_METHOD_PARTIAL_UPDATE	sal/sal.py	/^SAL_METHOD_PARTIAL_UPDATE=5$/;"	v
+SAL_METHOD_RETRIEVE	sal/sal.py	/^SAL_METHOD_RETRIEVE=2$/;"	v
+SAL_METHOD_UPDATE	sal/sal.py	/^SAL_METHOD_UPDATE=4$/;"	v
+SECRET_KEY	apServer/settings.py	/^SECRET_KEY = '!(u^dr0617-4anq-#=ynv9+dhitli5j-k4j5-*^n@379%u+-cw'$/;"	v
+SERVER_IP	common/env.py	/^SERVER_IP='192.168.1.184'$/;"	v
+SERVER_PORT	common/env.py	/^SERVER_PORT='8090'$/;"	v
+SERVER_URL	common/env.py	/^SERVER_URL='http:\/\/' + SERVER_IP + ':' + SERVER_PORT$/;"	v
+STATIC_URL	apServer/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SendRequest	apClient/request.py	/^class SendRequest(object):$/;"	c
+ServerConfig	apServer/server/apps.py	/^class ServerConfig(AppConfig):$/;"	c
+SystemConfig	apServer/server/models.py	/^class SystemConfig(models.Model):$/;"	c
+SystemConfigSerializer	apServer/server/serializers.py	/^class SystemConfigSerializer(serializers.HyperlinkedModelSerializer):$/;"	c
+SystemConfigViewSet	apServer/server/views.py	/^class SystemConfigViewSet(viewsets.ViewSet):$/;"	c
+TEMPLATES	apServer/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	apServer/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+UCI_ADD_LIST_CMD	sal/wapi/puci.py	/^UCI_ADD_LIST_CMD="uci add_list "$/;"	v
+UCI_COMMIT_CMD	sal/wapi/puci.py	/^UCI_COMMIT_CMD="uci commit "$/;"	v
+UCI_DELETE_CMD	sal/wapi/puci.py	/^UCI_DELETE_CMD="uci delete "$/;"	v
+UCI_DELETE_LIST_CMD	sal/wapi/puci.py	/^UCI_DELETE_LIST_CMD="uci delete_list "$/;"	v
+UCI_EXPORT_CMD	sal/wapi/puci.py	/^UCI_EXPORT_CMD="uci export "$/;"	v
+UCI_GET_CMD	sal/wapi/puci.py	/^UCI_GET_CMD="uci get "$/;"	v
+UCI_NETWORK_CONFIG	sal/wapi/interface.py	/^UCI_NETWORK_CONFIG="network"$/;"	v
+UCI_SET_CMD	sal/wapi/puci.py	/^UCI_SET_CMD="uci set "$/;"	v
+UCI_SHOW_CMD	sal/wapi/puci.py	/^UCI_SHOW_CMD="uci show "$/;"	v
+UCI_SYSTEM_CONFIG	sal/wapi/system.py	/^UCI_SYSTEM_CONFIG="system"$/;"	v
+USE_I18N	apServer/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	apServer/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	apServer/settings.py	/^USE_TZ = True$/;"	v
+WAN_ETHDEV	common/env.py	/^WAN_ETHDEV='eth0'$/;"	v
+WORKDIR	apClient/client.py	/^WORKDIR=os.getcwd()$/;"	v
+WORKDIR	common/env.py	/^WORKDIR=os.getcwd()$/;"	v
+WORKDIR	common/test.py~~	/^WORKDIR=os.getcwd()$/;"	v
+WSGI_APPLICATION	apServer/settings.py	/^WSGI_APPLICATION = 'apServer.wsgi.application'$/;"	v
+__init__	apClient/client.py	/^    def __init__(self):$/;"	m	class:ClientCmdApp
+__init__	apClient/client.py	/^    def __init__(self, addr, port):$/;"	m	class:CommandSocket
+__init__	apClient/device_info.py	/^    def __init__(self):$/;"	m	class:ProcDeviceInfo
+__init__	apClient/request.py	/^    def __init__(self, method, device_id):$/;"	m	class:SendRequest
+__init__	common/log.py	/^    def __init__(self, name):$/;"	m	class:GetLogger
+__init__	common/test.py~~	/^    def __init__(self): $/;"	m	class:App
+__init__	sal/wapi/puci.py	/^    def __init__(self, config_name, *args):$/;"	m	class:ConfigUCI
+__unicode__	apServer/server/models.py	/^    def __unicode__(self):$/;"	m	class:DeviceInfo	file:
+_get_hwaddr	apClient/device_info.py	/^    def _get_hwaddr(self, ifname):$/;"	m	class:ProcDeviceInfo
+_get_serial_num	apClient/device_info.py	/^    def _get_serial_num(self, macaddr):$/;"	m	class:ProcDeviceInfo
+_interface_config_make_response	sal/wapi/interface.py	/^def _interface_config_make_response(uci_config):$/;"	f
+_make_request_data	apClient/device_info.py	/^    def _make_request_data(self):$/;"	m	class:ProcDeviceInfo
+_system_config_make_response	sal/wapi/system.py	/^def _system_config_make_response(uci_config):$/;"	f
+app	common/test.py~~	/^app = App()$/;"	v
+application	apServer/wsgi.py	/^application = get_wsgi_application()$/;"	v
+check_log_file	runserver.sh	/^check_log_file () {$/;"	f
+client	apClient/__init__.py	/^client = ClientCmdApp()$/;"	v
+clientsocket	utils/apClient_cmd.py	/^clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	v
+commit_uci_config	sal/wapi/puci.py	/^    def commit_uci_config(self):$/;"	m	class:ConfigUCI
+convert_config_value	sal/wapi/puci.py	/^    def convert_config_value(self, val):$/;"	m	class:ConfigUCI
+counterfeit	apServer/server/models.py	/^    counterfeit = models.BooleanField()$/;"	v	class:DeviceInfo
+create	apServer/server/views.py	/^    def create(self, request):$/;"	m	class:SystemConfigViewSet
+create	apServer/server/views.py	/^    def create(self, request, pk):$/;"	m	class:InterfaceConfigViewSet
+create_connection	common/db_sqlite.py	/^def create_connection(db_file):$/;"	f
+create_table	apClient/device_info.py	/^def create_table(conn, create_table_sql):$/;"	f
+custom_router	apServer/urls.py	/^custom_router = CustomRouter()$/;"	v
+daemon_runner	common/test.py~~	/^daemon_runner = runner.DaemonRunner(app)$/;"	v
+delete_uci_config	sal/wapi/puci.py	/^    def delete_uci_config(self, option):$/;"	m	class:ConfigUCI
+delete_uci_list_config	sal/wapi/puci.py	/^    def delete_uci_list_config(self, option, value):$/;"	m	class:ConfigUCI
+dependencies	apServer/server/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	apServer/server/migrations/0002_genericporttraffic.py	/^    dependencies = [$/;"	v	class:Migration
+dependencies	apServer/server/migrations/0003_auto_20180620_0516.py	/^    dependencies = [$/;"	v	class:Migration
+device_id	apServer/server/models.py	/^    device_id = models.CharField(max_length=100, primary_key=True)$/;"	v	class:DeviceInfo
+device_type	apServer/server/models.py	/^    device_type = models.IntegerField(default=-1)$/;"	v	class:DeviceInfo
+do_client_start	runserver.sh	/^do_client_start ()$/;"	f
+do_client_stop	runserver.sh	/^do_client_stop ()$/;"	f
+do_start	runserver.sh	/^do_start () {$/;"	f
+do_stop	runserver.sh	/^do_stop ()$/;"	f
+enable_ntp_client	apServer/server/models.py	/^    enable_ntp_client = models.BooleanField()$/;"	v	class:SystemConfig
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.CharField(default='', max_length=50),$/;"	v	class:Migration
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.CharField(default=-1, max_length=50),$/;"	v	class:Migration
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.CharField(max_length=30, primary_key=True, serialize=False),$/;"	v	class:Migration
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.CharField(max_length=50),$/;"	v	class:Migration
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.CharField(max_length=50, primary_key=True, serialize=False),$/;"	v	class:Migration
+field	apServer/server/migrations/0003_auto_20180620_0516.py	/^            field=models.IntegerField(default=-1),$/;"	v	class:Migration
+fields	apServer/server/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	apServer/server/migrations/0002_genericporttraffic.py	/^            fields=[$/;"	v	class:Migration
+fields	apServer/server/serializers.py	/^        fields = ('device_id', $/;"	v	class:DeviceInfoSerializer.Meta
+fields	apServer/server/serializers.py	/^        fields = ('enable_ntp_client', $/;"	v	class:SystemConfigSerializer.Meta
+fields	apServer/server/serializers.py	/^        fields = ('ifname',$/;"	v	class:GenericIfStatsSerializer.Meta
+generic_ifstats_list	sal/wapi/interface.py	/^def generic_ifstats_list():$/;"	f
+generic_ifstats_retrieve	sal/wapi/interface.py	/^def generic_ifstats_retrieve(ifname):$/;"	f
+get_generic_port_traffic	sal/wapi/interface.py	/^def get_generic_port_traffic(ifname):$/;"	f
+get_ip_address	apClient/device_info.py	/^def get_ip_address(ifname):$/;"	f
+get_logger_handler	common/log.py	/^def get_logger_handler():$/;"	f
+ifindex	apServer/server/models.py	/^    ifindex = models.IntegerField()$/;"	v	class:GenericIfStats
+ifname	apServer/server/models.py	/^    ifname = models.CharField(max_length=IFNAME_LENGTH, primary_key=True)$/;"	v	class:GenericIfStats
+init_device_info	apClient/device_info.py	/^def init_device_info():$/;"	f
+init_log	common/log.py	/^def init_log(name):$/;"	f
+init_start_config	apClient/client.py	/^def init_start_config():$/;"	f
+initial	apServer/server/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initkwargs	apServer/urls.py	/^            initkwargs={'suffix': 'Instance'}          $/;"	v	class:CustomRouter
+initkwargs	apServer/urls.py	/^            initkwargs={'suffix': 'List'}     $/;"	v	class:CustomRouter
+initkwargs	apServer/urls.py	/^            initkwargs={}                                                   $/;"	v	class:CustomRouter
+initkwargs	apServer/urls.py	/^            initkwargs={}                                  $/;"	v	class:CustomRouter
+insert_device_info	apClient/device_info.py	/^def insert_device_info(conn):$/;"	f
+interface_config_create	sal/wapi/interface.py	/^def interface_config_create(req, ifname):$/;"	f
+interface_config_list	sal/wapi/interface.py	/^def interface_config_list():$/;"	f
+interface_config_retrieve	sal/wapi/interface.py	/^def interface_config_retrieve(ifname, add_header):$/;"	f
+interface_config_update	sal/wapi/interface.py	/^def interface_config_update(req, ifname):$/;"	f
+ip	common/test.py~~	/^ip = '127.0.0.1'$/;"	v
+ip_addr	apServer/server/models.py	/^    ip_addr = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
+list	apServer/server/views.py	/^    def list(self, request):$/;"	m	class:GenericIfStatsViewSet
+list	apServer/server/views.py	/^    def list(self, request):$/;"	m	class:InterfaceConfigViewSet
+list	apServer/server/views.py	/^    def list(self, request):$/;"	m	class:SystemConfigViewSet
+log_debug	common/log.py	/^def log_debug(module, *values):$/;"	f
+log_err	common/log.py	/^def log_err(module, *values):$/;"	f
+log_info	common/log.py	/^def log_info(module, *values):$/;"	f
+log_warn	common/log.py	/^def log_warn(module, *values):$/;"	f
+logging_buffer_size	apServer/server/models.py	/^    logging_buffer_size = models.IntegerField()$/;"	v	class:SystemConfig
+logging_cron_log_level	apServer/server/models.py	/^    logging_cron_log_level = models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+logging_filename	apServer/server/models.py	/^    logging_filename = models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+logging_output_level	apServer/server/models.py	/^    logging_output_level = models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+logging_server_ipaddr	apServer/server/models.py	/^    logging_server_ipaddr = models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+logging_server_port	apServer/server/models.py	/^    logging_server_port = models.IntegerField()$/;"	v	class:SystemConfig
+logging_server_protocol	apServer/server/models.py	/^    logging_server_protocol = models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+mac_addr	apServer/server/models.py	/^    mac_addr = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
+map_x	apServer/server/models.py	/^    map_x = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
+map_y	apServer/server/models.py	/^    map_y = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
+mapping	apServer/urls.py	/^            mapping={                                                  $/;"	v	class:CustomRouter
+mapping	apServer/urls.py	/^            mapping={                                      $/;"	v	class:CustomRouter
+method	utils/apClient_cmd.py	/^method=sys.argv[1]$/;"	v
+model	apServer/server/serializers.py	/^        model = DeviceInfo$/;"	v	class:DeviceInfoSerializer.Meta
+model	apServer/server/serializers.py	/^        model = GenericIfStats$/;"	v	class:GenericIfStatsSerializer.Meta
+model	apServer/server/serializers.py	/^        model = SystemConfig$/;"	v	class:SystemConfigSerializer.Meta
+model_name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            model_name='deviceinfo',$/;"	v	class:Migration
+model_name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            model_name='genericporttraffic',$/;"	v	class:Migration
+model_num	apServer/server/models.py	/^    model_num = models.IntegerField(default=-1)$/;"	v	class:DeviceInfo
+name	apServer/server/apps.py	/^    name = 'server'$/;"	v	class:ServerConfig
+name	apServer/server/migrations/0001_initial.py	/^            name='DeviceInfo',$/;"	v	class:Migration
+name	apServer/server/migrations/0002_genericporttraffic.py	/^            name='GenericPortTraffic',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='device_id',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='device_type',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='id',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='ifname',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='ip_addr',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='mac_addr',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='map_x',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='map_y',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='model_num',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='name',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='serial_num',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='status',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='user_id',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='user_passwd',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='vendor_id',$/;"	v	class:Migration
+name	apServer/server/migrations/0003_auto_20180620_0516.py	/^            name='vendor_name',$/;"	v	class:Migration
+name	apServer/server/models.py	/^    name = models.CharField(max_length=100)$/;"	v	class:DeviceInfo
+name	apServer/urls.py	/^            name='{basename}-detail',                                           $/;"	v	class:CustomRouter
+name	apServer/urls.py	/^            name='{basename}-list',                       $/;"	v	class:CustomRouter
+name	apServer/urls.py	/^            name='{basename}-{methodnamehyphen}',                           $/;"	v	class:CustomRouter
+name	apServer/urls.py	/^            name='{basename}-{methodnamehyphen}',          $/;"	v	class:CustomRouter
+ntp_server_candidates	apServer/server/models.py	/^    ntp_server_candidates= models.CharField(max_length=100, default='')$/;"	v	class:SystemConfig
+operations	apServer/server/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+operations	apServer/server/migrations/0002_genericporttraffic.py	/^    operations = [$/;"	v	class:Migration
+operations	apServer/server/migrations/0003_auto_20180620_0516.py	/^    operations = [$/;"	v	class:Migration
+port	common/test.py~~	/^port = 8010 $/;"	v
+proc_device_info	apClient/device_info.py	/^def proc_device_info(data):$/;"	f
+provide_ntp_server	apServer/server/models.py	/^    provide_ntp_server = models.BooleanField()$/;"	v	class:SystemConfig
+queryset	apServer/server/views.py	/^    queryset = DeviceInfo.objects.all()$/;"	v	class:DeviceInfoViewSet
+queryset	apServer/server/views.py	/^    queryset = GenericIfStats.objects.all()$/;"	v	class:GenericIfStatsViewSet
+queryset	apServer/server/views.py	/^    queryset = SystemConfig.objects.all()$/;"	v	class:SystemConfigViewSet
+register_device_info	apClient/device_info.py	/^def register_device_info():$/;"	f
+request_get_device_info	apClient/device_info.py	/^    def request_get_device_info(self):$/;"	m	class:ProcDeviceInfo
+request_post_device_info	apClient/device_info.py	/^    def request_post_device_info(self):$/;"	m	class:ProcDeviceInfo
+request_put_device_info	apClient/device_info.py	/^    def request_put_device_info(self):$/;"	m	class:ProcDeviceInfo
+response_debug	apClient/request.py	/^    def response_debug(self):$/;"	m	class:SendRequest
+restart_module	sal/wapi/puci.py	/^    def restart_module(self):$/;"	m	class:ConfigUCI
+retrieve	apServer/server/views.py	/^    def retrieve(self, request, pk):$/;"	m	class:GenericIfStatsViewSet
+retrieve	apServer/server/views.py	/^    def retrieve(self, request, pk):$/;"	m	class:InterfaceConfigViewSet
+router	apServer/urls.py	/^router = routers.DefaultRouter()$/;"	v
+routes	apServer/urls.py	/^    routes = [                                                       $/;"	v	class:CustomRouter
+run	apClient/client.py	/^    def run(self):$/;"	m	class:ClientCmdApp
+run	common/test.py~~	/^    def run(self):$/;"	m	class:App
+rxBytes	apServer/server/models.py	/^    rxBytes = models.IntegerField()$/;"	v	class:GenericIfStats
+rxPkts	apServer/server/models.py	/^    rxPkts = models.IntegerField()$/;"	v	class:GenericIfStats
+sal_generic_ifstats	sal/sal.py	/^def sal_generic_ifstats(method, ifname):$/;"	f
+sal_interface_config	sal/sal.py	/^def sal_interface_config(method, req, ifname):$/;"	f
+sal_system_config	sal/sal.py	/^def sal_system_config(method, req):$/;"	f
+send_request	apClient/request.py	/^    def send_request(self, url):$/;"	m	class:SendRequest
+serial_num	apServer/server/models.py	/^    serial_num = models.CharField(max_length=100, default=-1)$/;"	v	class:DeviceInfo
+serializer_class	apServer/server/views.py	/^    serializer_class = DeviceInfoSerializer$/;"	v	class:DeviceInfoViewSet
+serializer_class	apServer/server/views.py	/^    serializer_class = GenericIfStatsSerializer$/;"	v	class:GenericIfStatsViewSet
+serializer_class	apServer/server/views.py	/^    serializer_class = SystemConfigSerializer$/;"	v	class:SystemConfigViewSet
+set_device_info_db	apClient/device_info.py	/^def set_device_info_db():$/;"	f
+set_uci_config	sal/wapi/puci.py	/^    def set_uci_config(self, option, value):$/;"	m	class:ConfigUCI
+set_uci_config_list_value	sal/wapi/puci.py	/^    def set_uci_config_list_value(self, keyword, option, list_value):$/;"	m	class:ConfigUCI
+set_uci_list_config	sal/wapi/puci.py	/^    def set_uci_list_config(self, option, value):$/;"	m	class:ConfigUCI
+show_uci_config	sal/wapi/puci.py	/^    def show_uci_config(self, option):$/;"	m	class:ConfigUCI
+size	common/test.py~~	/^size = 1024$/;"	v
+status	apServer/server/models.py	/^    status = models.IntegerField(default=-1)$/;"	v	class:DeviceInfo
+subprocess_open	sal/wapi/puci.py	/^def subprocess_open(command):$/;"	f
+subprocess_open_when_shell_false	sal/wapi/puci.py	/^def subprocess_open_when_shell_false(command):$/;"	f
+subprocess_open_when_shell_false_with_shelx	sal/wapi/puci.py	/^def subprocess_open_when_shell_false_with_shelx(command):$/;"	f
+subprocess_pipe	sal/wapi/puci.py	/^def subprocess_pipe(cmd_list):$/;"	f
+system_config_create	sal/wapi/system.py	/^def system_config_create(req):$/;"	f
+system_config_list	apServer/urls.py	/^system_config_list = views.SystemConfigViewSet.as_view({$/;"	v
+system_config_list	sal/wapi/system.py	/^def system_config_list():$/;"	f
+system_config_update	sal/wapi/system.py	/^def system_config_update(req):$/;"	f
+txBytes	apServer/server/models.py	/^    txBytes = models.IntegerField()$/;"	v	class:GenericIfStats
+txPkts	apServer/server/models.py	/^    txPkts = models.IntegerField()$/;"	v	class:GenericIfStats
+update	apServer/server/views.py	/^    def update(self, request):$/;"	m	class:SystemConfigViewSet
+update	apServer/server/views.py	/^    def update(self, request, pk):$/;"	m	class:InterfaceConfigViewSet
+update_device_id	apClient/device_info.py	/^    def update_device_id(self, resp_json):$/;"	m	class:ProcDeviceInfo
+update_device_info	apClient/device_info.py	/^    def update_device_info(self):$/;"	m	class:ProcDeviceInfo
+url	apServer/urls.py	/^            url=r'^{prefix}\/{lookup}\/{methodname}{trailing_slash}$',        $/;"	v	class:CustomRouter
+url	apServer/urls.py	/^            url=r'^{prefix}\/{lookup}{trailing_slash}$',    $/;"	v	class:CustomRouter
+url	apServer/urls.py	/^            url=r'^{prefix}\/{methodname}{trailing_slash}$',$/;"	v	class:CustomRouter
+url	apServer/urls.py	/^            url=r'^{prefix}{trailing_slash}$',                  $/;"	v	class:CustomRouter
+urlpatterns	apServer/urls.py	/^urlpatterns = [$/;"	v
+user_id	apServer/server/models.py	/^    user_id = models.CharField(max_length=100, default=-1)$/;"	v	class:DeviceInfo
+user_passwd	apServer/server/models.py	/^    user_passwd = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
+vendor_id	apServer/server/models.py	/^    vendor_id = models.IntegerField(default=-1)$/;"	v	class:DeviceInfo
+vendor_name	apServer/server/models.py	/^    vendor_name = models.CharField(max_length=100, default='')$/;"	v	class:DeviceInfo
